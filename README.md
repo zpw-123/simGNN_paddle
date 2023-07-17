@@ -25,3 +25,13 @@ scikit-learn      0.20.0
  "labels_2": [2, 3, 2, 2, 2],          
  "ged": 1}              
 **graph_1** 和 **graph_2** 键具有描述连接结构的边列表值。类似地，**labels_1** 和 **labels_2** 键具有每个节点的标签，这些标签存储为列表 - 列表中的位置对应于节点标识符。**ged** 键有一个整数值，它是图形对的原始图形编辑距离。           
+
+## 例子      
+python src/main.py     
+python src/main.py --epochs 100 --batch-size 512       
+python src/main.py --histogram         
+python src/main.py --histogram --bins 32         
+python src/main.py --learning-rate 0.01 --dropout 0.9          
+python src/main.py --save-path /path/to/model-name         
+python src/main.py --load-path /path/to/model-name        
+
